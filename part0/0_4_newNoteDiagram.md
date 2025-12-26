@@ -5,7 +5,7 @@ sequenceDiagram
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
     activate server
     
-    Note right of browser: The browser submits the new note data to the server
+    Note right of browser: The browser submits the JSON dat of the new note to the server
     
     server-->>browser: URL redirect
     deactivate server
